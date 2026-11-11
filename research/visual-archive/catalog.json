@@ -1,0 +1,359 @@
+{
+  "title": "拍摄计划视觉资料库",
+  "plans": {
+    "dragon-sky": "拍龙：天空中的目击者材料",
+    "shadow-cave": "拍影子：柏拉图洞穴喻",
+    "hinge": "铰链：同时属于两边"
+  },
+  "entries": [
+    {
+      "id": "chen-rong-nine-dragons",
+      "title": "陈容《九龙图卷》",
+      "year": "1244",
+      "plan": "dragon-sky",
+      "medium": "绘画",
+      "use": "云气里的显现，不要完整形体",
+      "collection": "MFA Boston 17.1697",
+      "url": "https://collections.mfa.org/objects/28526/nine-dragons",
+      "image": "images/chen-rong-nine-dragons-detail.jpg"
+    },
+    {
+      "id": "eleven-dragons",
+      "title": "佚名《十一龙图》",
+      "year": "15世纪",
+      "plan": "dragon-sky",
+      "medium": "绘画",
+      "use": "同一云龙传统的转写与误题",
+      "collection": "Freer F1919.173",
+      "url": "https://asia.si.edu/explore-art-culture/collections/search/edanmdm:fsg_F1919.173/"
+    },
+    {
+      "id": "hokusai-dragon",
+      "title": "葛饰北斋 龙图",
+      "year": "19世纪",
+      "plan": "dragon-sky",
+      "medium": "绘画",
+      "use": "龙从墨云旋出，空白即云",
+      "image": "images/hokusai-dragon.jpg"
+    },
+    {
+      "id": "zhulong",
+      "title": "烛龙 / 烛阴",
+      "year": "《山海经》",
+      "plan": "hinge",
+      "medium": "神话",
+      "use": "龙作为洞穴光源：睁眼为昼"
+    },
+    {
+      "id": "yinglong-rain",
+      "title": "应龙土龙求雨",
+      "year": "《山海经》",
+      "plan": "hinge",
+      "medium": "神话",
+      "use": "先做形象，等天空应答"
+    },
+    {
+      "id": "qiu-anxiong",
+      "title": "邱黯雄《新山海经》",
+      "year": "2006–2017",
+      "plan": "dragon-sky",
+      "medium": "动画",
+      "use": "用古代目击系统看当代天空异物",
+      "url": "https://www.fosunfoundation.com/zh/exhibitions/solo-exhibition-qiu-anxiong-the-mirage-of-mountains-and-seas"
+    },
+    {
+      "id": "sun-xun",
+      "title": "孙逊 动画",
+      "year": "2000s–",
+      "plan": "dragon-sky",
+      "medium": "动画",
+      "use": "历史、宣传片与合法的骗子"
+    },
+    {
+      "id": "nuremberg-1561",
+      "title": "纽伦堡天象单页画",
+      "year": "1561",
+      "plan": "dragon-sky",
+      "medium": "目击文书",
+      "use": "集体目击被印刷成证据",
+      "collection": "Zentralbibliothek Zürich",
+      "image": "images/nuremberg-1561.jpg",
+      "url": "https://en.wikipedia.org/wiki/1561_celestial_phenomenon_over_Nuremberg"
+    },
+    {
+      "id": "comet-1577",
+      "title": "1577 大彗星目击木刻",
+      "year": "1577",
+      "plan": "dragon-sky",
+      "medium": "目击文书",
+      "use": "画面中有正在画的目击者",
+      "image": "images/comet-1577.jpg"
+    },
+    {
+      "id": "sermons-in-the-sky",
+      "title": "近代欧洲天上异象",
+      "year": "16世纪",
+      "plan": "dragon-sky",
+      "medium": "目击文书",
+      "use": "龙、蛇、空中军队是同一类天空事件",
+      "url": "https://www.historytoday.com/archive/sermons-sky-apparitions-early-modern-europe"
+    },
+    {
+      "id": "asc-793",
+      "title": "盎格鲁-撒克逊编年史飞龙",
+      "year": "793",
+      "plan": "dragon-sky",
+      "medium": "文献",
+      "use": "古代旁白压在当代天空上"
+    },
+    {
+      "id": "bonham-1873",
+      "title": "得克萨斯云中巨蛇",
+      "year": "1873",
+      "plan": "dragon-sky",
+      "medium": "新闻",
+      "use": "地方报纸口吻的农民目击者"
+    },
+    {
+      "id": "jung-ufos",
+      "title": "荣格《飞碟》",
+      "year": "1958",
+      "plan": "dragon-sky",
+      "medium": "理论",
+      "use": "把天象单页画和现代 UFO 放进同一神话"
+    },
+    {
+      "id": "constable-clouds",
+      "title": "康斯太勃尔云图",
+      "year": "1822",
+      "plan": "dragon-sky",
+      "medium": "绘画",
+      "use": "标注时间的天空速写",
+      "image": "images/constable-cloud-study.jpg"
+    },
+    {
+      "id": "friedrich-monk",
+      "title": "弗里德里希《海边的修士》",
+      "year": "1808–10",
+      "plan": "dragon-sky",
+      "medium": "绘画",
+      "use": "人小天大的目击者构图",
+      "image": "images/friedrich-monk-by-the-sea.jpg"
+    },
+    {
+      "id": "turrell",
+      "title": "詹姆斯·特瑞尔 Sky Spaces",
+      "year": "1970s–",
+      "plan": "hinge",
+      "medium": "装置",
+      "use": "把天空切成一块屏幕 / 洞口",
+      "url": "https://jamesturrell.com/"
+    },
+    {
+      "id": "eliasson-weather",
+      "title": "埃利亚松《气候计划》",
+      "year": "2003",
+      "plan": "hinge",
+      "medium": "装置",
+      "use": "室内人造太阳，目击变成集体表演",
+      "url": "https://www.tate.org.uk/whats-on/tate-modern/unilever-series/unilever-series-olafur-eliasson-weather-project"
+    },
+    {
+      "id": "cai-guoqiang",
+      "title": "蔡国强 爆破计划",
+      "year": "1990s–",
+      "plan": "dragon-sky",
+      "medium": "爆破 / 录像",
+      "use": "龙在天空里只存在几秒",
+      "url": "https://www.caiguoqiang.com/"
+    },
+    {
+      "id": "uccello-st-george",
+      "title": "乌切洛《圣乔治与龙》",
+      "year": "c.1470",
+      "plan": "hinge",
+      "medium": "绘画",
+      "use": "洞口 + 风暴云；不要借屠龙情节",
+      "image": "images/uccello-st-george.jpg"
+    },
+    {
+      "id": "blake-dragon",
+      "title": "布莱克《大红龙》",
+      "year": "c.1805",
+      "plan": "dragon-sky",
+      "medium": "绘画",
+      "use": "龙作为占满天空的天象",
+      "image": "images/blake-great-red-dragon.jpg"
+    },
+    {
+      "id": "still-life-ufo",
+      "title": "贾樟柯《三峡好人》飞碟",
+      "year": "2006",
+      "plan": "hinge",
+      "medium": "电影",
+      "use": "一次经过，不解释"
+    },
+    {
+      "id": "plato-republic",
+      "title": "柏拉图《理想国》洞穴喻",
+      "year": "c.375 BCE",
+      "plan": "shadow-cave",
+      "medium": "哲学",
+      "use": "装置清单：火、矮墙、器物、洞壁、锁住的颈"
+    },
+    {
+      "id": "saenredam-cave",
+      "title": "Saenredam《柏拉图之洞》",
+      "year": "1604",
+      "plan": "shadow-cave",
+      "medium": "版画",
+      "use": "洞穴的施工图",
+      "collection": "British Museum 1852,1211.120",
+      "image": "images/saenredam-plato-cave.jpg",
+      "url": "https://www.britishmuseum.org/collection/object/P_1852-1211-120"
+    },
+    {
+      "id": "baudry",
+      "title": "鲍德里 装置理论",
+      "year": "1970s",
+      "plan": "shadow-cave",
+      "medium": "理论",
+      "use": "电影院 = 洞穴"
+    },
+    {
+      "id": "tanizaki",
+      "title": "谷崎《阴翳礼赞》",
+      "year": "1933",
+      "plan": "shadow-cave",
+      "medium": "随笔",
+      "use": "颂影，而不是出洞"
+    },
+    {
+      "id": "kentridge-shadows",
+      "title": "肯特里奇 In Praise of Shadows",
+      "year": "2001–2015",
+      "plan": "shadow-cave",
+      "medium": "演讲 / 装置 / 影像",
+      "use": "影子是认识，不是低级近似",
+      "url": "https://www.kentridge.studio/in-praise-of-shadows/"
+    },
+    {
+      "id": "xu-bing-background",
+      "title": "徐冰《背后的故事》",
+      "year": "2004–",
+      "plan": "shadow-cave",
+      "medium": "装置",
+      "use": "正面是画，背面是垃圾；可绕到后面",
+      "url": "https://www.xubing.com/en/database/writing/479"
+    },
+    {
+      "id": "mccall-cone",
+      "title": "McCall《描述圆锥的线》",
+      "year": "1973",
+      "plan": "shadow-cave",
+      "medium": "电影装置",
+      "use": "走进光束",
+      "url": "https://whitney.org/collection/works/15286"
+    },
+    {
+      "id": "kuball-mirror",
+      "title": "Kuball Platon’s Mirror",
+      "year": "2011",
+      "plan": "shadow-cave",
+      "medium": "装置",
+      "use": "反射无限增殖",
+      "url": "https://www.mischakuball.com/en/projects/platons-mirror"
+    },
+    {
+      "id": "sugimoto-theaters",
+      "title": "杉本博司 Theaters",
+      "year": "1978–",
+      "plan": "shadow-cave",
+      "medium": "摄影",
+      "use": "整部电影曝成一块白屏",
+      "url": "https://www.sugimotohiroshi.com/new-page-7"
+    },
+    {
+      "id": "kara-walker",
+      "title": "卡拉·沃克 剪影",
+      "year": "1990s–",
+      "plan": "shadow-cave",
+      "medium": "装置 / 影像",
+      "use": "剪影携带历史暴力"
+    },
+    {
+      "id": "shadow-puppetry",
+      "title": "皮影 / wayang kulit",
+      "year": "传统",
+      "plan": "shadow-cave",
+      "medium": "表演",
+      "use": "先拍屏上的戏，再拍屏后的手"
+    },
+    {
+      "id": "photogram",
+      "title": "曼·雷 / 莫霍利 photogram",
+      "year": "1920s",
+      "plan": "shadow-cave",
+      "medium": "摄影",
+      "use": "物体挡光，影子就是照片"
+    },
+    {
+      "id": "goodbye-dragon-inn",
+      "title": "蔡明亮《不散》",
+      "year": "2003",
+      "plan": "hinge",
+      "medium": "电影",
+      "use": "龙的光落在空椅子上",
+      "url": "https://www.sensesofcinema.com/2023/cteq/goodbye-dragon-inn-tsai-ming-liang-2003/"
+    },
+    {
+      "id": "herzog-chauvet",
+      "title": "赫尔佐格《遗忘之梦的洞穴》",
+      "year": "2010",
+      "plan": "hinge",
+      "medium": "电影",
+      "use": "手电扫过岩壁，兽才出现"
+    },
+    {
+      "id": "bi-gan-long-day",
+      "title": "毕赣《地球最后的夜晚》",
+      "year": "2018",
+      "plan": "hinge",
+      "medium": "电影",
+      "use": "戴上 3D 眼镜 = 改变观看制度"
+    },
+    {
+      "id": "apichatpong-fever-room",
+      "title": "阿彼察邦《热室》",
+      "year": "2015–",
+      "plan": "hinge",
+      "medium": "现场电影",
+      "use": "从洞穴 2D 走到现场 4D"
+    },
+    {
+      "id": "bertolucci-conformist",
+      "title": "贝尔托鲁奇《随波逐流的人》",
+      "year": "1970",
+      "plan": "shadow-cave",
+      "medium": "电影",
+      "use": "课堂上的洞穴喻 / 不愿出洞"
+    },
+    {
+      "id": "marker-jetee",
+      "title": "克里斯·马克《堤》",
+      "year": "1962",
+      "plan": "shadow-cave",
+      "medium": "电影",
+      "use": "静止照片的投影即记忆"
+    },
+    {
+      "id": "tarkovsky",
+      "title": "塔可夫斯基",
+      "year": "1970s–80s",
+      "plan": "shadow-cave",
+      "medium": "电影",
+      "use": "暗室里光的物质性",
+      "url": "https://www.tate.org.uk/research/tate-papers/10/andrei-tarkovsky-and-contemporary-art-medium-and-mediation"
+    }
+  ]
+}
