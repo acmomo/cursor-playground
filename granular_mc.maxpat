@@ -19,6 +19,7 @@
 			15.0,
 			15.0
 		],
+		"autosave": 0,
 		"boxes": [
 			{
 				"box": {
@@ -1401,7 +1402,7 @@
 						199.5,
 						22
 					],
-					"text": "mc.mixdown~ 2 @autogain 1",
+					"text": "mc.mixdown~ 2",
 					"outlettype": [
 						"multichannelsignal"
 					],
@@ -1564,6 +1565,303 @@
 					"id": "obj-87",
 					"numinlets": 1,
 					"numoutlets": 1
+				}
+			},
+			{
+				"box": {
+					"maxclass": "comment",
+					"text": "小键盘：按键改变颗粒音高，中央 C = 原调",
+					"linecount": 1,
+					"patching_rect": [
+						1250,
+						110,
+						330,
+						20
+					],
+					"id": "obj-88",
+					"numinlets": 1,
+					"numoutlets": 0
+				}
+			},
+			{
+				"box": {
+					"maxclass": "kslider",
+					"patching_rect": [
+						1250,
+						135,
+						196,
+						53
+					],
+					"outlettype": [
+						"int",
+						"int"
+					],
+					"parameter_enable": 0,
+					"id": "obj-89",
+					"numinlets": 2,
+					"numoutlets": 2
+				}
+			},
+			{
+				"box": {
+					"maxclass": "number",
+					"patching_rect": [
+						1250,
+						195,
+						50,
+						22
+					],
+					"outlettype": [
+						"",
+						"bang"
+					],
+					"parameter_enable": 0,
+					"id": "obj-90",
+					"numinlets": 1,
+					"numoutlets": 2
+				}
+			},
+			{
+				"box": {
+					"maxclass": "newobj",
+					"patching_rect": [
+						1250,
+						225,
+						230,
+						22
+					],
+					"text": "expr pow(2., ($f1 - 60.) / 12.)",
+					"outlettype": [
+						""
+					],
+					"id": "obj-91",
+					"numinlets": 1,
+					"numoutlets": 1
+				}
+			},
+			{
+				"box": {
+					"maxclass": "comment",
+					"text": "① 先打开音频（或点 ezdac~ 喇叭）",
+					"linecount": 1,
+					"patching_rect": [
+						20,
+						600,
+						300,
+						20
+					],
+					"id": "obj-92",
+					"numinlets": 1,
+					"numoutlets": 0
+				}
+			},
+			{
+				"box": {
+					"maxclass": "message",
+					"outlettype": [
+						""
+					],
+					"text": "; dsp start",
+					"patching_rect": [
+						20,
+						625,
+						96.5,
+						22
+					],
+					"id": "obj-93",
+					"numinlets": 2,
+					"numoutlets": 1
+				}
+			},
+			{
+				"box": {
+					"maxclass": "message",
+					"outlettype": [
+						""
+					],
+					"text": "; dsp stop",
+					"patching_rect": [
+						120,
+						625,
+						89.0,
+						22
+					],
+					"id": "obj-94",
+					"numinlets": 2,
+					"numoutlets": 1
+				}
+			},
+			{
+				"box": {
+					"maxclass": "comment",
+					"text": "② 试听整段素材：有声音说明素材载入成功",
+					"linecount": 1,
+					"patching_rect": [
+						20,
+						665,
+						360,
+						20
+					],
+					"id": "obj-95",
+					"numinlets": 1,
+					"numoutlets": 0
+				}
+			},
+			{
+				"box": {
+					"maxclass": "message",
+					"outlettype": [
+						""
+					],
+					"text": "start",
+					"patching_rect": [
+						20,
+						690,
+						51.5,
+						22
+					],
+					"id": "obj-96",
+					"numinlets": 2,
+					"numoutlets": 1
+				}
+			},
+			{
+				"box": {
+					"maxclass": "message",
+					"outlettype": [
+						""
+					],
+					"text": "stop",
+					"patching_rect": [
+						75,
+						690,
+						44.0,
+						22
+					],
+					"id": "obj-97",
+					"numinlets": 2,
+					"numoutlets": 1
+				}
+			},
+			{
+				"box": {
+					"maxclass": "newobj",
+					"patching_rect": [
+						20,
+						725,
+						79.5,
+						22
+					],
+					"text": "play~ abc",
+					"outlettype": [
+						"signal",
+						"bang"
+					],
+					"id": "obj-98",
+					"numinlets": 1,
+					"numoutlets": 2
+				}
+			},
+			{
+				"box": {
+					"maxclass": "comment",
+					"text": "③ 打开开关后，这个数字应该在 1-100 之间不停变化",
+					"linecount": 1,
+					"patching_rect": [
+						20,
+						765,
+						460,
+						20
+					],
+					"id": "obj-99",
+					"numinlets": 1,
+					"numoutlets": 0
+				}
+			},
+			{
+				"box": {
+					"maxclass": "number",
+					"patching_rect": [
+						20,
+						790,
+						50,
+						22
+					],
+					"outlettype": [
+						"",
+						"bang"
+					],
+					"parameter_enable": 0,
+					"id": "obj-100",
+					"numinlets": 1,
+					"numoutlets": 2
+				}
+			},
+			{
+				"box": {
+					"maxclass": "comment",
+					"text": "④ 打印颗粒参数到 Max Console（声部 起点 终点 时长），看完记得关掉",
+					"linecount": 1,
+					"patching_rect": [
+						20,
+						825,
+						520,
+						20
+					],
+					"id": "obj-101",
+					"numinlets": 1,
+					"numoutlets": 0
+				}
+			},
+			{
+				"box": {
+					"maxclass": "toggle",
+					"patching_rect": [
+						20,
+						870,
+						24,
+						24
+					],
+					"outlettype": [
+						"int"
+					],
+					"parameter_enable": 0,
+					"id": "obj-102",
+					"numinlets": 1,
+					"numoutlets": 1
+				}
+			},
+			{
+				"box": {
+					"maxclass": "newobj",
+					"patching_rect": [
+						60,
+						870,
+						42.0,
+						22
+					],
+					"text": "gate",
+					"outlettype": [
+						""
+					],
+					"id": "obj-103",
+					"numinlets": 2,
+					"numoutlets": 1
+				}
+			},
+			{
+				"box": {
+					"maxclass": "newobj",
+					"patching_rect": [
+						120,
+						870,
+						94.5,
+						22
+					],
+					"text": "print grain",
+					"id": "obj-104",
+					"numinlets": 1,
+					"numoutlets": 0
 				}
 			}
 		],
@@ -2347,8 +2645,139 @@
 						0
 					]
 				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-90",
+						0
+					],
+					"source": [
+						"obj-89",
+						0
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-91",
+						0
+					],
+					"source": [
+						"obj-90",
+						0
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-44",
+						0
+					],
+					"source": [
+						"obj-91",
+						0
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-98",
+						0
+					],
+					"source": [
+						"obj-96",
+						0
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-98",
+						0
+					],
+					"source": [
+						"obj-97",
+						0
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-84",
+						0
+					],
+					"source": [
+						"obj-98",
+						0
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-85",
+						0
+					],
+					"source": [
+						"obj-98",
+						0
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-100",
+						0
+					],
+					"source": [
+						"obj-66",
+						0
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-103",
+						0
+					],
+					"source": [
+						"obj-102",
+						0
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-103",
+						1
+					],
+					"source": [
+						"obj-67",
+						0
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-104",
+						0
+					],
+					"source": [
+						"obj-103",
+						0
+					]
+				}
 			}
-		],
-		"autosave": 0
+		]
 	}
 }
