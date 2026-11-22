@@ -96,7 +96,7 @@
 					"linecount": 1,
 					"patching_rect": [
 						20,
-						110,
+						380,
 						400,
 						20
 					],
@@ -114,7 +114,7 @@
 					"text": "replace",
 					"patching_rect": [
 						20,
-						140,
+						410,
 						66.5,
 						22
 					],
@@ -128,11 +128,11 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						90,
-						140,
-						94.5,
+						410,
+						139.5,
 						22
 					],
-					"text": "buffer~ hum",
+					"text": "buffer~ hum 60000",
 					"outlettype": [
 						"float",
 						"bang"
@@ -149,7 +149,7 @@
 					"linecount": 1,
 					"patching_rect": [
 						20,
-						175,
+						445,
 						50,
 						20
 					],
@@ -163,7 +163,7 @@
 					"maxclass": "toggle",
 					"patching_rect": [
 						20,
-						198,
+						468,
 						24,
 						24
 					],
@@ -181,7 +181,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						60,
-						198,
+						468,
 						124.5,
 						22
 					],
@@ -201,7 +201,7 @@
 					"linecount": 1,
 					"patching_rect": [
 						220,
-						175,
+						445,
 						200,
 						20
 					],
@@ -215,7 +215,7 @@
 					"maxclass": "flonum",
 					"patching_rect": [
 						220,
-						197,
+						467,
 						60,
 						22
 					],
@@ -235,7 +235,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						290,
-						197,
+						467,
 						90,
 						22
 					],
@@ -253,7 +253,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						20,
-						235,
+						505,
 						49.5,
 						22
 					],
@@ -272,7 +272,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						140,
-						270,
+						540,
 						49.5,
 						22
 					],
@@ -295,7 +295,7 @@
 					"text": "0.",
 					"patching_rect": [
 						140,
-						305,
+						575,
 						30,
 						22
 					],
@@ -309,7 +309,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						20,
-						270,
+						540,
 						117.0,
 						22
 					],
@@ -327,7 +327,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						220,
-						235,
+						505,
 						49.5,
 						22
 					],
@@ -346,7 +346,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						20,
-						305,
+						575,
 						42.0,
 						22
 					],
@@ -364,7 +364,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						20,
-						345,
+						615,
 						169.5,
 						22
 					],
@@ -385,7 +385,7 @@
 					"linecount": 1,
 					"patching_rect": [
 						20,
-						390,
+						660,
 						400,
 						20
 					],
@@ -399,7 +399,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						20,
-						420,
+						690,
 						57.0,
 						22
 					],
@@ -419,7 +419,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						20,
-						455,
+						725,
 						42.0,
 						22
 					],
@@ -437,7 +437,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						20,
-						490,
+						760,
 						94.5,
 						22
 					],
@@ -458,7 +458,7 @@
 					"linecount": 1,
 					"patching_rect": [
 						220,
-						470,
+						740,
 						200,
 						20
 					],
@@ -472,7 +472,7 @@
 					"maxclass": "flonum",
 					"patching_rect": [
 						220,
-						492,
+						762,
 						60,
 						22
 					],
@@ -492,7 +492,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						290,
-						492,
+						762,
 						90,
 						22
 					],
@@ -510,7 +510,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						220,
-						518,
+						788,
 						132.0,
 						22
 					],
@@ -528,7 +528,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						20,
-						525,
+						795,
 						42.0,
 						22
 					],
@@ -546,7 +546,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						20,
-						560,
+						830,
 						49.5,
 						22
 					],
@@ -564,7 +564,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						20,
-						595,
+						865,
 						40,
 						22
 					],
@@ -582,7 +582,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						20,
-						630,
+						900,
 						57.0,
 						22
 					],
@@ -604,7 +604,7 @@
 					"linecount": 1,
 					"patching_rect": [
 						140,
-						665,
+						935,
 						220,
 						20
 					],
@@ -618,7 +618,7 @@
 					"maxclass": "toggle",
 					"patching_rect": [
 						140,
-						690,
+						960,
 						24,
 						24
 					],
@@ -636,7 +636,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						180,
-						690,
+						960,
 						87.0,
 						22
 					],
@@ -654,7 +654,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						270,
-						690,
+						960,
 						87.0,
 						22
 					],
@@ -672,7 +672,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						270,
-						725,
+						995,
 						109.5,
 						22
 					],
@@ -690,7 +690,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						20,
-						690,
+						960,
 						42.0,
 						22
 					],
@@ -710,7 +710,7 @@
 					"linecount": 1,
 					"patching_rect": [
 						20,
-						760,
+						1030,
 						120,
 						20
 					],
@@ -724,7 +724,7 @@
 					"maxclass": "kslider",
 					"patching_rect": [
 						20,
-						785,
+						1055,
 						196,
 						53
 					],
@@ -745,7 +745,7 @@
 					"maxclass": "number",
 					"patching_rect": [
 						20,
-						860,
+						1130,
 						50,
 						22
 					],
@@ -764,7 +764,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						90,
-						860,
+						1130,
 						94.5,
 						22
 					],
@@ -784,7 +784,7 @@
 					"linecount": 1,
 					"patching_rect": [
 						220,
-						860,
+						1130,
 						150,
 						20
 					],
@@ -798,7 +798,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						20,
-						895,
+						1165,
 						42.0,
 						22
 					],
@@ -818,7 +818,7 @@
 					"linecount": 1,
 					"patching_rect": [
 						220,
-						890,
+						1160,
 						200,
 						20
 					],
@@ -832,7 +832,7 @@
 					"maxclass": "flonum",
 					"patching_rect": [
 						220,
-						912,
+						1182,
 						60,
 						22
 					],
@@ -852,7 +852,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						290,
-						912,
+						1182,
 						90,
 						22
 					],
@@ -870,7 +870,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						220,
-						938,
+						1208,
 						102.0,
 						22
 					],
@@ -888,7 +888,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						20,
-						930,
+						1200,
 						94.5,
 						22
 					],
@@ -906,7 +906,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						20,
-						965,
+						1235,
 						49.5,
 						22
 					],
@@ -927,7 +927,7 @@
 					"linecount": 1,
 					"patching_rect": [
 						80,
-						965,
+						1235,
 						260,
 						20
 					],
@@ -943,7 +943,7 @@
 					"linecount": 1,
 					"patching_rect": [
 						20,
-						1010,
+						1280,
 						300,
 						20
 					],
@@ -957,7 +957,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						20,
-						1035,
+						1305,
 						102.0,
 						22
 					],
@@ -978,7 +978,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						20,
-						1070,
+						1340,
 						49.5,
 						22
 					],
@@ -996,7 +996,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						20,
-						1105,
+						1375,
 						49.5,
 						22
 					],
@@ -1016,7 +1016,7 @@
 					"linecount": 1,
 					"patching_rect": [
 						470,
-						110,
+						380,
 						380,
 						20
 					],
@@ -1030,7 +1030,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						470,
-						140,
+						410,
 						57.0,
 						22
 					],
@@ -1048,7 +1048,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						470,
-						175,
+						445,
 						57.0,
 						22
 					],
@@ -1066,7 +1066,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						470,
-						210,
+						480,
 						49.5,
 						22
 					],
@@ -1086,7 +1086,7 @@
 					"linecount": 1,
 					"patching_rect": [
 						470,
-						260,
+						530,
 						380,
 						20
 					],
@@ -1102,7 +1102,7 @@
 					"linecount": 1,
 					"patching_rect": [
 						700,
-						285,
+						555,
 						200,
 						20
 					],
@@ -1116,7 +1116,7 @@
 					"maxclass": "flonum",
 					"patching_rect": [
 						700,
-						307,
+						577,
 						60,
 						22
 					],
@@ -1136,7 +1136,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						770,
-						307,
+						577,
 						90,
 						22
 					],
@@ -1154,7 +1154,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						700,
-						333,
+						603,
 						109.5,
 						22
 					],
@@ -1172,7 +1172,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						700,
-						355,
+						625,
 						49.5,
 						22
 					],
@@ -1191,7 +1191,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						700,
-						380,
+						650,
 						109.5,
 						22
 					],
@@ -1209,7 +1209,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						810,
-						380,
+						650,
 						109.5,
 						22
 					],
@@ -1227,7 +1227,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						550,
-						415,
+						685,
 						72.0,
 						22
 					],
@@ -1245,7 +1245,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						630,
-						415,
+						685,
 						72.0,
 						22
 					],
@@ -1263,7 +1263,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						470,
-						450,
+						720,
 						42.0,
 						22
 					],
@@ -1281,7 +1281,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						550,
-						450,
+						720,
 						42.0,
 						22
 					],
@@ -1299,7 +1299,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						630,
-						450,
+						720,
 						42.0,
 						22
 					],
@@ -1317,7 +1317,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						470,
-						485,
+						755,
 						40,
 						22
 					],
@@ -1335,7 +1335,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						470,
-						520,
+						790,
 						40,
 						22
 					],
@@ -1353,7 +1353,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						470,
-						555,
+						825,
 						64.5,
 						22
 					],
@@ -1373,7 +1373,7 @@
 					"linecount": 1,
 					"patching_rect": [
 						470,
-						588,
+						858,
 						380,
 						20
 					],
@@ -1389,7 +1389,7 @@
 					"linecount": 1,
 					"patching_rect": [
 						470,
-						610,
+						880,
 						120,
 						20
 					],
@@ -1403,7 +1403,7 @@
 					"maxclass": "flonum",
 					"patching_rect": [
 						470,
-						632,
+						902,
 						60,
 						22
 					],
@@ -1423,7 +1423,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						540,
-						632,
+						902,
 						90,
 						22
 					],
@@ -1441,7 +1441,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						470,
-						658,
+						928,
 						147.0,
 						22
 					],
@@ -1461,7 +1461,7 @@
 					"linecount": 1,
 					"patching_rect": [
 						640,
-						610,
+						880,
 						120,
 						20
 					],
@@ -1475,7 +1475,7 @@
 					"maxclass": "flonum",
 					"patching_rect": [
 						640,
-						632,
+						902,
 						60,
 						22
 					],
@@ -1495,7 +1495,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						710,
-						632,
+						902,
 						90,
 						22
 					],
@@ -1513,7 +1513,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						640,
-						658,
+						928,
 						154.5,
 						22
 					],
@@ -1533,7 +1533,7 @@
 					"linecount": 1,
 					"patching_rect": [
 						810,
-						610,
+						880,
 						120,
 						20
 					],
@@ -1547,7 +1547,7 @@
 					"maxclass": "flonum",
 					"patching_rect": [
 						810,
-						632,
+						902,
 						60,
 						22
 					],
@@ -1567,7 +1567,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						880,
-						632,
+						902,
 						90,
 						22
 					],
@@ -1585,7 +1585,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						470,
-						690,
+						960,
 						57.0,
 						22
 					],
@@ -1603,7 +1603,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						470,
-						725,
+						995,
 						57.0,
 						22
 					],
@@ -1621,7 +1621,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						470,
-						760,
+						1030,
 						57.0,
 						22
 					],
@@ -1639,7 +1639,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						470,
-						795,
+						1065,
 						64.5,
 						22
 					],
@@ -1657,7 +1657,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						470,
-						830,
+						1100,
 						64.5,
 						22
 					],
@@ -1675,7 +1675,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						470,
-						865,
+						1135,
 						40,
 						22
 					],
@@ -1695,7 +1695,7 @@
 					"linecount": 1,
 					"patching_rect": [
 						810,
-						690,
+						960,
 						120,
 						20
 					],
@@ -1709,7 +1709,7 @@
 					"maxclass": "flonum",
 					"patching_rect": [
 						810,
-						712,
+						982,
 						60,
 						22
 					],
@@ -1729,7 +1729,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						880,
-						712,
+						982,
 						90,
 						22
 					],
@@ -1747,7 +1747,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						470,
-						900,
+						1170,
 						42.0,
 						22
 					],
@@ -1768,7 +1768,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						470,
-						935,
+						1205,
 						49.5,
 						22
 					],
@@ -1786,7 +1786,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						470,
-						970,
+						1240,
 						49.5,
 						22
 					],
@@ -1806,7 +1806,7 @@
 					"linecount": 1,
 					"patching_rect": [
 						600,
-						760,
+						1030,
 						230,
 						20
 					],
@@ -1824,7 +1824,7 @@
 					"text": "1, 0 600",
 					"patching_rect": [
 						600,
-						785,
+						1055,
 						74.0,
 						22
 					],
@@ -1838,7 +1838,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						600,
-						820,
+						1090,
 						49.5,
 						22
 					],
@@ -1857,7 +1857,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						600,
-						855,
+						1125,
 						72.0,
 						22
 					],
@@ -1877,7 +1877,7 @@
 					"linecount": 2,
 					"patching_rect": [
 						700,
-						890,
+						1160,
 						200,
 						40
 					],
@@ -1891,7 +1891,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						700,
-						935,
+						1205,
 						102.0,
 						22
 					],
@@ -1909,7 +1909,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						700,
-						970,
+						1240,
 						124.5,
 						22
 					],
@@ -1937,7 +1937,7 @@
 					"text": "0.25",
 					"patching_rect": [
 						700,
-						1005,
+						1275,
 						38,
 						22
 					],
@@ -1955,7 +1955,7 @@
 					"text": "0.5",
 					"patching_rect": [
 						740,
-						1005,
+						1275,
 						38,
 						22
 					],
@@ -1973,7 +1973,7 @@
 					"text": "1.",
 					"patching_rect": [
 						780,
-						1005,
+						1275,
 						38,
 						22
 					],
@@ -1991,7 +1991,7 @@
 					"text": "2.",
 					"patching_rect": [
 						820,
-						1005,
+						1275,
 						38,
 						22
 					],
@@ -2009,7 +2009,7 @@
 					"text": "4.",
 					"patching_rect": [
 						860,
-						1005,
+						1275,
 						38,
 						22
 					],
@@ -2027,7 +2027,7 @@
 					"text": "8.",
 					"patching_rect": [
 						900,
-						1005,
+						1275,
 						38,
 						22
 					],
@@ -2043,7 +2043,7 @@
 					"linecount": 1,
 					"patching_rect": [
 						470,
-						1050,
+						1320,
 						400,
 						20
 					],
@@ -2057,7 +2057,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						470,
-						1075,
+						1345,
 						57.0,
 						22
 					],
@@ -2075,7 +2075,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						560,
-						1075,
+						1345,
 						79.5,
 						22
 					],
@@ -2093,7 +2093,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						470,
-						1110,
+						1380,
 						57.0,
 						22
 					],
@@ -2111,7 +2111,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						560,
-						1110,
+						1380,
 						57.0,
 						22
 					],
@@ -2129,7 +2129,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						470,
-						1145,
+						1415,
 						40,
 						22
 					],
@@ -2147,7 +2147,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						670,
-						1110,
+						1380,
 						94.5,
 						22
 					],
@@ -2165,7 +2165,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						670,
-						1145,
+						1415,
 						57.0,
 						22
 					],
@@ -2183,7 +2183,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						670,
-						1180,
+						1450,
 						57.0,
 						22
 					],
@@ -2201,7 +2201,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						470,
-						1215,
+						1485,
 						40,
 						22
 					],
@@ -2219,7 +2219,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						470,
-						1250,
+						1520,
 						49.5,
 						22
 					],
@@ -2239,7 +2239,7 @@
 					"linecount": 2,
 					"patching_rect": [
 						1000,
-						110,
+						380,
 						440,
 						40
 					],
@@ -2257,7 +2257,7 @@
 					"text": "replace",
 					"patching_rect": [
 						1000,
-						150,
+						420,
 						66.5,
 						22
 					],
@@ -2271,7 +2271,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						1070,
-						150,
+						420,
 						109.5,
 						22
 					],
@@ -2292,7 +2292,7 @@
 					"linecount": 1,
 					"patching_rect": [
 						1000,
-						185,
+						455,
 						200,
 						20
 					],
@@ -2306,7 +2306,7 @@
 					"maxclass": "flonum",
 					"patching_rect": [
 						1000,
-						207,
+						477,
 						60,
 						22
 					],
@@ -2326,7 +2326,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						1070,
-						207,
+						477,
 						90,
 						22
 					],
@@ -2344,7 +2344,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						1000,
-						233,
+						503,
 						139.5,
 						22
 					],
@@ -2362,7 +2362,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						1000,
-						270,
+						540,
 						42.0,
 						22
 					],
@@ -2380,7 +2380,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						1000,
-						315,
+						585,
 						184.5,
 						22
 					],
@@ -2399,7 +2399,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						1000,
-						350,
+						620,
 						102.0,
 						22
 					],
@@ -2420,7 +2420,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						1000,
-						385,
+						655,
 						49.5,
 						22
 					],
@@ -2438,7 +2438,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						1000,
-						420,
+						690,
 						49.5,
 						22
 					],
@@ -2458,7 +2458,7 @@
 					"linecount": 1,
 					"patching_rect": [
 						1230,
-						245,
+						515,
 						200,
 						20
 					],
@@ -2472,7 +2472,7 @@
 					"maxclass": "button",
 					"patching_rect": [
 						1230,
-						270,
+						540,
 						24,
 						24
 					],
@@ -2490,7 +2490,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						1270,
-						270,
+						540,
 						94.5,
 						22
 					],
@@ -2508,7 +2508,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						1230,
-						305,
+						575,
 						64.5,
 						22
 					],
@@ -2532,7 +2532,7 @@
 					"text": "0.",
 					"patching_rect": [
 						1330,
-						340,
+						610,
 						30,
 						22
 					],
@@ -2548,7 +2548,7 @@
 					"linecount": 1,
 					"patching_rect": [
 						1000,
-						470,
+						740,
 						380,
 						20
 					],
@@ -2566,7 +2566,7 @@
 					"text": "120, 38 180",
 					"patching_rect": [
 						1000,
-						495,
+						765,
 						96.5,
 						22
 					],
@@ -2584,7 +2584,7 @@
 					"text": "1, 0 700",
 					"patching_rect": [
 						1130,
-						495,
+						765,
 						74.0,
 						22
 					],
@@ -2598,7 +2598,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						1000,
-						530,
+						800,
 						49.5,
 						22
 					],
@@ -2617,7 +2617,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						1130,
-						530,
+						800,
 						49.5,
 						22
 					],
@@ -2636,7 +2636,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						1000,
-						565,
+						835,
 						57.0,
 						22
 					],
@@ -2654,7 +2654,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						1000,
-						600,
+						870,
 						40,
 						22
 					],
@@ -2672,7 +2672,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						1000,
-						635,
+						905,
 						49.5,
 						22
 					],
@@ -2690,7 +2690,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						1000,
-						670,
+						940,
 						49.5,
 						22
 					],
@@ -2710,7 +2710,7 @@
 					"linecount": 1,
 					"patching_rect": [
 						960,
-						738,
+						1008,
 						560,
 						20
 					],
@@ -2726,7 +2726,7 @@
 					"linecount": 1,
 					"patching_rect": [
 						960,
-						760,
+						1030,
 						90,
 						20
 					],
@@ -2740,7 +2740,7 @@
 					"maxclass": "flonum",
 					"patching_rect": [
 						960,
-						785,
+						1055,
 						60,
 						22
 					],
@@ -2760,7 +2760,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						960,
-						815,
+						1085,
 						85,
 						22
 					],
@@ -2778,7 +2778,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						960,
-						845,
+						1115,
 						85,
 						22
 					],
@@ -2800,7 +2800,7 @@
 					"text": "$1 50",
 					"patching_rect": [
 						960,
-						875,
+						1145,
 						51.5,
 						22
 					],
@@ -2814,7 +2814,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						960,
-						905,
+						1175,
 						49.5,
 						22
 					],
@@ -2833,7 +2833,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						960,
-						940,
+						1210,
 						40,
 						22
 					],
@@ -2853,7 +2853,7 @@
 					"linecount": 1,
 					"patching_rect": [
 						1055,
-						760,
+						1030,
 						90,
 						20
 					],
@@ -2867,7 +2867,7 @@
 					"maxclass": "flonum",
 					"patching_rect": [
 						1055,
-						785,
+						1055,
 						60,
 						22
 					],
@@ -2887,7 +2887,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						1055,
-						815,
+						1085,
 						85,
 						22
 					],
@@ -2905,7 +2905,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						1055,
-						845,
+						1115,
 						85,
 						22
 					],
@@ -2927,7 +2927,7 @@
 					"text": "$1 50",
 					"patching_rect": [
 						1055,
-						875,
+						1145,
 						51.5,
 						22
 					],
@@ -2941,7 +2941,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						1055,
-						905,
+						1175,
 						49.5,
 						22
 					],
@@ -2960,7 +2960,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						1055,
-						940,
+						1210,
 						40,
 						22
 					],
@@ -2980,7 +2980,7 @@
 					"linecount": 1,
 					"patching_rect": [
 						1150,
-						760,
+						1030,
 						90,
 						20
 					],
@@ -2994,7 +2994,7 @@
 					"maxclass": "flonum",
 					"patching_rect": [
 						1150,
-						785,
+						1055,
 						60,
 						22
 					],
@@ -3014,7 +3014,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						1150,
-						815,
+						1085,
 						85,
 						22
 					],
@@ -3032,7 +3032,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						1150,
-						845,
+						1115,
 						85,
 						22
 					],
@@ -3054,7 +3054,7 @@
 					"text": "$1 50",
 					"patching_rect": [
 						1150,
-						875,
+						1145,
 						51.5,
 						22
 					],
@@ -3068,7 +3068,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						1150,
-						905,
+						1175,
 						49.5,
 						22
 					],
@@ -3087,7 +3087,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						1150,
-						940,
+						1210,
 						40,
 						22
 					],
@@ -3107,7 +3107,7 @@
 					"linecount": 1,
 					"patching_rect": [
 						1245,
-						760,
+						1030,
 						90,
 						20
 					],
@@ -3121,7 +3121,7 @@
 					"maxclass": "flonum",
 					"patching_rect": [
 						1245,
-						785,
+						1055,
 						60,
 						22
 					],
@@ -3141,7 +3141,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						1245,
-						815,
+						1085,
 						85,
 						22
 					],
@@ -3159,7 +3159,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						1245,
-						845,
+						1115,
 						85,
 						22
 					],
@@ -3181,7 +3181,7 @@
 					"text": "$1 50",
 					"patching_rect": [
 						1245,
-						875,
+						1145,
 						51.5,
 						22
 					],
@@ -3195,7 +3195,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						1245,
-						905,
+						1175,
 						49.5,
 						22
 					],
@@ -3214,7 +3214,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						1245,
-						940,
+						1210,
 						40,
 						22
 					],
@@ -3234,7 +3234,7 @@
 					"linecount": 1,
 					"patching_rect": [
 						1340,
-						760,
+						1030,
 						90,
 						20
 					],
@@ -3248,7 +3248,7 @@
 					"maxclass": "flonum",
 					"patching_rect": [
 						1340,
-						785,
+						1055,
 						60,
 						22
 					],
@@ -3268,7 +3268,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						1340,
-						815,
+						1085,
 						85,
 						22
 					],
@@ -3286,7 +3286,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						1340,
-						845,
+						1115,
 						85,
 						22
 					],
@@ -3308,7 +3308,7 @@
 					"text": "$1 50",
 					"patching_rect": [
 						1340,
-						875,
+						1145,
 						51.5,
 						22
 					],
@@ -3322,7 +3322,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						1340,
-						905,
+						1175,
 						49.5,
 						22
 					],
@@ -3341,7 +3341,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						1340,
-						940,
+						1210,
 						40,
 						22
 					],
@@ -3361,7 +3361,7 @@
 					"linecount": 1,
 					"patching_rect": [
 						1435,
-						760,
+						1030,
 						90,
 						20
 					],
@@ -3375,7 +3375,7 @@
 					"maxclass": "flonum",
 					"patching_rect": [
 						1435,
-						785,
+						1055,
 						60,
 						22
 					],
@@ -3395,7 +3395,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						1435,
-						815,
+						1085,
 						85,
 						22
 					],
@@ -3413,7 +3413,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						1435,
-						845,
+						1115,
 						85,
 						22
 					],
@@ -3435,7 +3435,7 @@
 					"text": "$1 50",
 					"patching_rect": [
 						1435,
-						875,
+						1145,
 						51.5,
 						22
 					],
@@ -3449,7 +3449,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						1435,
-						905,
+						1175,
 						49.5,
 						22
 					],
@@ -3468,7 +3468,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						1435,
-						940,
+						1210,
 						40,
 						22
 					],
@@ -3486,7 +3486,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						1055,
-						975,
+						1245,
 						40,
 						22
 					],
@@ -3504,7 +3504,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						1150,
-						975,
+						1245,
 						40,
 						22
 					],
@@ -3522,7 +3522,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						1245,
-						975,
+						1245,
 						40,
 						22
 					],
@@ -3540,7 +3540,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						1340,
-						975,
+						1245,
 						40,
 						22
 					],
@@ -3558,7 +3558,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						1435,
-						975,
+						1245,
 						40,
 						22
 					],
@@ -3578,7 +3578,7 @@
 					"linecount": 1,
 					"patching_rect": [
 						960,
-						1010,
+						1280,
 						200,
 						20
 					],
@@ -3592,7 +3592,7 @@
 					"maxclass": "flonum",
 					"patching_rect": [
 						960,
-						1032,
+						1302,
 						60,
 						22
 					],
@@ -3612,7 +3612,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						1030,
-						1032,
+						1302,
 						90,
 						22
 					],
@@ -3630,7 +3630,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						960,
-						1058,
+						1328,
 						109.5,
 						22
 					],
@@ -3652,7 +3652,7 @@
 					"text": "$1 50",
 					"patching_rect": [
 						960,
-						1085,
+						1355,
 						51.5,
 						22
 					],
@@ -3666,7 +3666,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						1020,
-						1085,
+						1355,
 						49.5,
 						22
 					],
@@ -3685,7 +3685,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						1435,
-						1010,
+						1280,
 						40,
 						22
 					],
@@ -3703,7 +3703,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						1435,
-						1045,
+						1315,
 						94.5,
 						22
 					],
@@ -3726,7 +3726,7 @@
 					"linecount": 2,
 					"patching_rect": [
 						1190,
-						1045,
+						1315,
 						230,
 						40
 					],
@@ -3740,7 +3740,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						1435,
-						1130,
+						1400,
 						49.5,
 						22
 					],
@@ -3758,7 +3758,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						1435,
-						1240,
+						1510,
 						102.0,
 						22
 					],
@@ -3775,7 +3775,7 @@
 					"linecount": 1,
 					"patching_rect": [
 						1555,
-						1240,
+						1510,
 						120,
 						20
 					],
@@ -3791,7 +3791,7 @@
 					"linecount": 1,
 					"patching_rect": [
 						960,
-						1130,
+						1400,
 						300,
 						20
 					],
@@ -3805,7 +3805,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						960,
-						1165,
+						1435,
 						94.5,
 						22
 					],
@@ -3828,7 +3828,7 @@
 					"linecount": 1,
 					"patching_rect": [
 						960,
-						1195,
+						1465,
 						200,
 						20
 					],
@@ -3842,7 +3842,7 @@
 					"maxclass": "flonum",
 					"patching_rect": [
 						960,
-						1217,
+						1487,
 						60,
 						22
 					],
@@ -3862,7 +3862,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						1030,
-						1217,
+						1487,
 						90,
 						22
 					],
@@ -3880,7 +3880,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						960,
-						1243,
+						1513,
 						109.5,
 						22
 					],
@@ -3898,7 +3898,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						960,
-						1275,
+						1545,
 						49.5,
 						22
 					],
@@ -3916,7 +3916,7 @@
 					"maxclass": "meter~",
 					"patching_rect": [
 						1515,
-						1130,
+						1400,
 						80,
 						13
 					],
@@ -3933,7 +3933,7 @@
 					"maxclass": "scope~",
 					"patching_rect": [
 						1205,
-						1280,
+						1550,
 						200,
 						90
 					],
@@ -3949,7 +3949,7 @@
 					"linecount": 1,
 					"patching_rect": [
 						20,
-						1330,
+						1600,
 						400,
 						20
 					],
@@ -3967,7 +3967,7 @@
 					"text": "; bass_sub 0.9; bass_reese 0; bass_drone 0.6; bass_hum 0.3; bass_wobble_rate 0.25",
 					"patching_rect": [
 						20,
-						1355,
+						1625,
 						420,
 						22
 					],
@@ -3983,7 +3983,7 @@
 					"linecount": 1,
 					"patching_rect": [
 						450,
-						1355,
+						1625,
 						100,
 						20
 					],
@@ -4001,7 +4001,7 @@
 					"text": "; bass_sub 0.8; bass_reese 0.5; bass_drone 0.2; bass_wobble_rate 2; bass_wobble_depth 1200",
 					"patching_rect": [
 						20,
-						1390,
+						1660,
 						420,
 						22
 					],
@@ -4017,7 +4017,7 @@
 					"linecount": 1,
 					"patching_rect": [
 						450,
-						1390,
+						1660,
 						100,
 						20
 					],
@@ -4035,7 +4035,7 @@
 					"text": "; bass_sub 1; bass_reese 0.7; bass_drone 0.4; bass_hum 0.5; bass_stone 0.9; bass_wobble_rate 6",
 					"patching_rect": [
 						20,
-						1425,
+						1695,
 						420,
 						22
 					],
@@ -4051,7 +4051,7 @@
 					"linecount": 1,
 					"patching_rect": [
 						450,
-						1425,
+						1695,
 						100,
 						20
 					],
@@ -4069,7 +4069,7 @@
 					"text": "; bass_master 0",
 					"patching_rect": [
 						20,
-						1460,
+						1730,
 						126.5,
 						22
 					],
@@ -4085,11 +4085,392 @@
 					"linecount": 1,
 					"patching_rect": [
 						150,
-						1460,
+						1730,
 						150,
 						20
 					],
 					"id": "obj-227",
+					"numinlets": 1,
+					"numoutlets": 0
+				}
+			},
+			{
+				"box": {
+					"maxclass": "comment",
+					"text": "载入哼唱：把 WAV/AIFF 拖进方框，或点下方 replace；载入成功后右边会出现波形",
+					"linecount": 1,
+					"patching_rect": [
+						20,
+						100,
+						520,
+						20
+					],
+					"id": "obj-228",
+					"numinlets": 1,
+					"numoutlets": 0
+				}
+			},
+			{
+				"box": {
+					"maxclass": "comment",
+					"text": "拖入文件",
+					"linecount": 1,
+					"patching_rect": [
+						20,
+						125,
+						100,
+						20
+					],
+					"id": "obj-229",
+					"numinlets": 1,
+					"numoutlets": 0
+				}
+			},
+			{
+				"box": {
+					"maxclass": "dropfile",
+					"patching_rect": [
+						20,
+						148,
+						170,
+						40
+					],
+					"outlettype": [
+						"",
+						""
+					],
+					"id": "obj-230",
+					"numinlets": 1,
+					"numoutlets": 2
+				}
+			},
+			{
+				"box": {
+					"maxclass": "newobj",
+					"patching_rect": [
+						20,
+						195,
+						124.5,
+						22
+					],
+					"text": "prepend replace",
+					"outlettype": [
+						""
+					],
+					"id": "obj-231",
+					"numinlets": 1,
+					"numoutlets": 1
+				}
+			},
+			{
+				"box": {
+					"maxclass": "waveform~",
+					"patching_rect": [
+						210,
+						125,
+						300,
+						70
+					],
+					"buffername": "hum",
+					"outlettype": [
+						"float",
+						"float",
+						"float",
+						"float",
+						"list",
+						""
+					],
+					"id": "obj-232",
+					"numinlets": 5,
+					"numoutlets": 6
+				}
+			},
+			{
+				"box": {
+					"maxclass": "comment",
+					"text": "载入石头采样：拖入方框，或点下方 replace",
+					"linecount": 1,
+					"patching_rect": [
+						1000,
+						100,
+						520,
+						20
+					],
+					"id": "obj-233",
+					"numinlets": 1,
+					"numoutlets": 0
+				}
+			},
+			{
+				"box": {
+					"maxclass": "comment",
+					"text": "拖入文件",
+					"linecount": 1,
+					"patching_rect": [
+						1000,
+						125,
+						100,
+						20
+					],
+					"id": "obj-234",
+					"numinlets": 1,
+					"numoutlets": 0
+				}
+			},
+			{
+				"box": {
+					"maxclass": "dropfile",
+					"patching_rect": [
+						1000,
+						148,
+						170,
+						40
+					],
+					"outlettype": [
+						"",
+						""
+					],
+					"id": "obj-235",
+					"numinlets": 1,
+					"numoutlets": 2
+				}
+			},
+			{
+				"box": {
+					"maxclass": "newobj",
+					"patching_rect": [
+						1000,
+						195,
+						124.5,
+						22
+					],
+					"text": "prepend replace",
+					"outlettype": [
+						""
+					],
+					"id": "obj-236",
+					"numinlets": 1,
+					"numoutlets": 1
+				}
+			},
+			{
+				"box": {
+					"maxclass": "waveform~",
+					"patching_rect": [
+						1190,
+						125,
+						300,
+						70
+					],
+					"buffername": "stone",
+					"outlettype": [
+						"float",
+						"float",
+						"float",
+						"float",
+						"list",
+						""
+					],
+					"id": "obj-237",
+					"numinlets": 5,
+					"numoutlets": 6
+				}
+			},
+			{
+				"box": {
+					"maxclass": "comment",
+					"text": "或者直接录音：麦克风接 4i4 输入 2，开 = 开始录，关 = 停止（最长 60 秒）",
+					"linecount": 2,
+					"patching_rect": [
+						20,
+						235,
+						440,
+						40
+					],
+					"id": "obj-238",
+					"numinlets": 1,
+					"numoutlets": 0
+				}
+			},
+			{
+				"box": {
+					"maxclass": "toggle",
+					"patching_rect": [
+						20,
+						285,
+						24,
+						24
+					],
+					"outlettype": [
+						"int"
+					],
+					"parameter_enable": 0,
+					"id": "obj-239",
+					"numinlets": 1,
+					"numoutlets": 1
+				}
+			},
+			{
+				"box": {
+					"maxclass": "newobj",
+					"patching_rect": [
+						60,
+						285,
+						57.0,
+						22
+					],
+					"text": "adc~ 2",
+					"outlettype": [
+						"signal"
+					],
+					"id": "obj-240",
+					"numinlets": 1,
+					"numoutlets": 1
+				}
+			},
+			{
+				"box": {
+					"maxclass": "newobj",
+					"patching_rect": [
+						20,
+						320,
+						94.5,
+						22
+					],
+					"text": "record~ hum",
+					"outlettype": [
+						"signal"
+					],
+					"id": "obj-241",
+					"numinlets": 3,
+					"numoutlets": 1
+				}
+			},
+			{
+				"box": {
+					"maxclass": "newobj",
+					"patching_rect": [
+						140,
+						285,
+						49.5,
+						22
+					],
+					"text": "t i i",
+					"outlettype": [
+						"int",
+						"int"
+					],
+					"id": "obj-242",
+					"numinlets": 1,
+					"numoutlets": 2
+				}
+			},
+			{
+				"box": {
+					"maxclass": "newobj",
+					"patching_rect": [
+						200,
+						285,
+						64.5,
+						22
+					],
+					"text": "sel 1 0",
+					"outlettype": [
+						"bang",
+						"bang",
+						""
+					],
+					"id": "obj-243",
+					"numinlets": 2,
+					"numoutlets": 3
+				}
+			},
+			{
+				"box": {
+					"maxclass": "newobj",
+					"patching_rect": [
+						200,
+						320,
+						49.5,
+						22
+					],
+					"text": "t b b",
+					"outlettype": [
+						"bang",
+						"bang"
+					],
+					"id": "obj-244",
+					"numinlets": 1,
+					"numoutlets": 2
+				}
+			},
+			{
+				"box": {
+					"maxclass": "message",
+					"outlettype": [
+						""
+					],
+					"text": "size 60000",
+					"patching_rect": [
+						270,
+						320,
+						89.0,
+						22
+					],
+					"id": "obj-245",
+					"numinlets": 2,
+					"numoutlets": 1
+				}
+			},
+			{
+				"box": {
+					"maxclass": "newobj",
+					"patching_rect": [
+						380,
+						285,
+						49.5,
+						22
+					],
+					"text": "timer",
+					"outlettype": [
+						"float",
+						"float"
+					],
+					"id": "obj-246",
+					"numinlets": 2,
+					"numoutlets": 2
+				}
+			},
+			{
+				"box": {
+					"maxclass": "message",
+					"outlettype": [
+						""
+					],
+					"text": "crop 0 $1",
+					"patching_rect": [
+						380,
+						320,
+						81.5,
+						22
+					],
+					"id": "obj-247",
+					"numinlets": 2,
+					"numoutlets": 1
+				}
+			},
+			{
+				"box": {
+					"maxclass": "comment",
+					"text": "停止时自动裁掉没录到的部分",
+					"linecount": 1,
+					"patching_rect": [
+						470,
+						300,
+						200,
+						20
+					],
+					"id": "obj-248",
 					"numinlets": 1,
 					"numoutlets": 0
 				}
@@ -6408,6 +6789,186 @@
 					],
 					"source": [
 						"obj-207",
+						0
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-231",
+						0
+					],
+					"source": [
+						"obj-230",
+						0
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-7",
+						0
+					],
+					"source": [
+						"obj-231",
+						0
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-236",
+						0
+					],
+					"source": [
+						"obj-235",
+						0
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-126",
+						0
+					],
+					"source": [
+						"obj-236",
+						0
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-241",
+						0
+					],
+					"source": [
+						"obj-240",
+						0
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-242",
+						0
+					],
+					"source": [
+						"obj-239",
+						0
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-243",
+						0
+					],
+					"source": [
+						"obj-242",
+						1
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-241",
+						0
+					],
+					"source": [
+						"obj-242",
+						0
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-244",
+						0
+					],
+					"source": [
+						"obj-243",
+						0
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-245",
+						0
+					],
+					"source": [
+						"obj-244",
+						1
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-7",
+						0
+					],
+					"source": [
+						"obj-245",
+						0
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-246",
+						0
+					],
+					"source": [
+						"obj-244",
+						0
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-246",
+						1
+					],
+					"source": [
+						"obj-243",
+						1
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-247",
+						0
+					],
+					"source": [
+						"obj-246",
+						0
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-7",
+						0
+					],
+					"source": [
+						"obj-247",
 						0
 					]
 				}
