@@ -24,7 +24,7 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "一颗 grain（由 06_texture 的 poly~ 调用，不要单独打开）。读取的素材名 = poly~ 的 @args。\n收到 note 位置ms 长度ms 速率 声像0-1",
+					"text": "One grain (used by poly~ in 06_texture; do not open on its own). Buffer name = poly~ @args.\nReceives: note position-ms length-ms rate pan(0-1)",
 					"linecount": 3,
 					"patching_rect": [
 						20,

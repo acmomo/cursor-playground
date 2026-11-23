@@ -25,7 +25,7 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "02 鼓机（编辑视图）。需要同时打开 01_clock。按 Cmd/Ctrl+Alt+E 切换回演奏界面。\n接收：clock_step / moon / moon_stage。发出：kick_hit（每次底鼓，给 bass 做 sidechain）",
+					"text": "02 Drums (edit view). Needs 01_clock open. Press Cmd/Ctrl+Alt+E for the performance view.\nReceives: clock_step / moon / moon_stage. Sends: kick_hit (every kick, for the bass sidechain)",
 					"linecount": 2,
 					"patching_rect": [
 						20,
@@ -41,7 +41,7 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "跟随月亮：自动决定 电子程度 和 哪些鼓进来",
+					"text": "Follow moon: auto sound + auto entries",
 					"linecount": 1,
 					"patching_rect": [
 						20,
@@ -283,7 +283,7 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "底鼓 Kick：从月亮场景 0 开始自动进来",
+					"text": "Kick: enters from scene 0",
 					"linecount": 1,
 					"patching_rect": [
 						20,
@@ -302,7 +302,7 @@
 					"outlettype": [
 						""
 					],
-					"text": "四拍",
+					"text": "Four",
 					"patching_rect": [
 						20,
 						100,
@@ -327,7 +327,7 @@
 					"outlettype": [
 						""
 					],
-					"text": "心跳",
+					"text": "Heart",
 					"patching_rect": [
 						90,
 						100,
@@ -352,7 +352,7 @@
 					"outlettype": [
 						""
 					],
-					"text": "碎拍",
+					"text": "Broken",
 					"patching_rect": [
 						160,
 						100,
@@ -380,7 +380,7 @@
 						250,
 						22
 					],
-					"text": "route 四拍 心跳 碎拍",
+					"text": "route Four Heart Broken",
 					"outlettype": [
 						"",
 						"",
@@ -938,7 +938,7 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "开",
+					"text": "On",
 					"linecount": 1,
 					"patching_rect": [
 						140,
@@ -1110,7 +1110,7 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "长短 ms",
+					"text": "Len ms",
 					"linecount": 1,
 					"patching_rect": [
 						420,
@@ -1171,7 +1171,7 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "电子程度 0-1",
+					"text": "Electronic 0-1",
 					"linecount": 1,
 					"patching_rect": [
 						420,
@@ -1250,7 +1250,7 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "采样音高",
+					"text": "Pitch",
 					"linecount": 1,
 					"patching_rect": [
 						420,
@@ -1311,7 +1311,7 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "音量",
+					"text": "Level",
 					"linecount": 1,
 					"patching_rect": [
 						420,
@@ -1372,7 +1372,7 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "采样：拖入文件或点 replace",
+					"text": "Sample: drop file / replace",
 					"linecount": 1,
 					"patching_rect": [
 						20,
@@ -1603,7 +1603,7 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "合成音色",
+					"text": "Synth voice",
 					"linecount": 1,
 					"patching_rect": [
 						20,
@@ -1947,7 +1947,7 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "底鼓 Kick",
+					"text": "Kick",
 					"linecount": 1,
 					"patching_rect": [
 						2220,
@@ -1971,7 +1971,7 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "开",
+					"text": "On",
 					"linecount": 1,
 					"patching_rect": [
 						2455,
@@ -1995,7 +1995,7 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "长短 ms",
+					"text": "Len ms",
 					"linecount": 1,
 					"patching_rect": [
 						2760,
@@ -2019,7 +2019,7 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "电子程度",
+					"text": "Electronic",
 					"linecount": 1,
 					"patching_rect": [
 						2845,
@@ -2043,7 +2043,7 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "音量",
+					"text": "Level",
 					"linecount": 1,
 					"patching_rect": [
 						2930,
@@ -2067,7 +2067,7 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "采样音高",
+					"text": "Pitch",
 					"linecount": 1,
 					"patching_rect": [
 						3015,
@@ -2091,7 +2091,7 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "军鼓 Snare：从月亮场景 2 开始自动进来",
+					"text": "Snare: enters from scene 2",
 					"linecount": 1,
 					"patching_rect": [
 						640,
@@ -2110,7 +2110,7 @@
 					"outlettype": [
 						""
 					],
-					"text": "二四拍",
+					"text": "Backbeat",
 					"patching_rect": [
 						640,
 						100,
@@ -2135,7 +2135,7 @@
 					"outlettype": [
 						""
 					],
-					"text": "反拍",
+					"text": "Offbeat",
 					"patching_rect": [
 						710,
 						100,
@@ -2160,7 +2160,7 @@
 					"outlettype": [
 						""
 					],
-					"text": "空",
+					"text": "Empty",
 					"patching_rect": [
 						780,
 						100,
@@ -2188,7 +2188,7 @@
 						250,
 						22
 					],
-					"text": "route 二四拍 反拍 空",
+					"text": "route Backbeat Offbeat Empty",
 					"outlettype": [
 						"",
 						"",
@@ -2746,7 +2746,7 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "开",
+					"text": "On",
 					"linecount": 1,
 					"patching_rect": [
 						760,
@@ -2903,7 +2903,7 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "长短 ms",
+					"text": "Len ms",
 					"linecount": 1,
 					"patching_rect": [
 						1040,
@@ -2964,7 +2964,7 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "电子程度 0-1",
+					"text": "Electronic 0-1",
 					"linecount": 1,
 					"patching_rect": [
 						1040,
@@ -3043,7 +3043,7 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "采样音高",
+					"text": "Pitch",
 					"linecount": 1,
 					"patching_rect": [
 						1040,
@@ -3104,7 +3104,7 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "音量",
+					"text": "Level",
 					"linecount": 1,
 					"patching_rect": [
 						1040,
@@ -3165,7 +3165,7 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "采样：拖入文件或点 replace",
+					"text": "Sample: drop file / replace",
 					"linecount": 1,
 					"patching_rect": [
 						640,
@@ -3396,7 +3396,7 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "合成音色",
+					"text": "Synth voice",
 					"linecount": 1,
 					"patching_rect": [
 						640,
@@ -3797,7 +3797,7 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "军鼓 Snare",
+					"text": "Snare",
 					"linecount": 1,
 					"patching_rect": [
 						2220,
@@ -3821,7 +3821,7 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "开",
+					"text": "On",
 					"linecount": 1,
 					"patching_rect": [
 						2455,
@@ -3845,7 +3845,7 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "长短 ms",
+					"text": "Len ms",
 					"linecount": 1,
 					"patching_rect": [
 						2760,
@@ -3869,7 +3869,7 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "电子程度",
+					"text": "Electronic",
 					"linecount": 1,
 					"patching_rect": [
 						2845,
@@ -3893,7 +3893,7 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "音量",
+					"text": "Level",
 					"linecount": 1,
 					"patching_rect": [
 						2930,
@@ -3917,7 +3917,7 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "采样音高",
+					"text": "Pitch",
 					"linecount": 1,
 					"patching_rect": [
 						3015,
@@ -3941,7 +3941,7 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "镲 Hi-hat：从月亮场景 1 开始自动进来",
+					"text": "Hi-hat: enters from scene 1",
 					"linecount": 1,
 					"patching_rect": [
 						1260,
@@ -3960,7 +3960,7 @@
 					"outlettype": [
 						""
 					],
-					"text": "八分",
+					"text": "8ths",
 					"patching_rect": [
 						1260,
 						100,
@@ -3985,7 +3985,7 @@
 					"outlettype": [
 						""
 					],
-					"text": "十六分",
+					"text": "16ths",
 					"patching_rect": [
 						1330,
 						100,
@@ -4010,7 +4010,7 @@
 					"outlettype": [
 						""
 					],
-					"text": "反拍",
+					"text": "Offbeat",
 					"patching_rect": [
 						1400,
 						100,
@@ -4038,7 +4038,7 @@
 						250,
 						22
 					],
-					"text": "route 八分 十六分 反拍",
+					"text": "route 8ths 16ths Offbeat",
 					"outlettype": [
 						"",
 						"",
@@ -4596,7 +4596,7 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "开",
+					"text": "On",
 					"linecount": 1,
 					"patching_rect": [
 						1380,
@@ -4753,7 +4753,7 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "长短 ms",
+					"text": "Len ms",
 					"linecount": 1,
 					"patching_rect": [
 						1660,
@@ -4814,7 +4814,7 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "电子程度 0-1",
+					"text": "Electronic 0-1",
 					"linecount": 1,
 					"patching_rect": [
 						1660,
@@ -4893,7 +4893,7 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "采样音高",
+					"text": "Pitch",
 					"linecount": 1,
 					"patching_rect": [
 						1660,
@@ -4954,7 +4954,7 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "音量",
+					"text": "Level",
 					"linecount": 1,
 					"patching_rect": [
 						1660,
@@ -5015,7 +5015,7 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "采样：拖入文件或点 replace",
+					"text": "Sample: drop file / replace",
 					"linecount": 1,
 					"patching_rect": [
 						1260,
@@ -5246,7 +5246,7 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "合成音色",
+					"text": "Synth voice",
 					"linecount": 1,
 					"patching_rect": [
 						1260,
@@ -5538,7 +5538,7 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "镲 Hi-hat",
+					"text": "Hi-hat",
 					"linecount": 1,
 					"patching_rect": [
 						2220,
@@ -5562,7 +5562,7 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "开",
+					"text": "On",
 					"linecount": 1,
 					"patching_rect": [
 						2455,
@@ -5586,7 +5586,7 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "长短 ms",
+					"text": "Len ms",
 					"linecount": 1,
 					"patching_rect": [
 						2760,
@@ -5610,7 +5610,7 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "电子程度",
+					"text": "Electronic",
 					"linecount": 1,
 					"patching_rect": [
 						2845,
@@ -5634,7 +5634,7 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "音量",
+					"text": "Level",
 					"linecount": 1,
 					"patching_rect": [
 						2930,
@@ -5658,7 +5658,7 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "采样音高",
+					"text": "Pitch",
 					"linecount": 1,
 					"patching_rect": [
 						3015,
@@ -5718,7 +5718,7 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "总音量",
+					"text": "Master",
 					"linecount": 1,
 					"patching_rect": [
 						1400,
@@ -5817,7 +5817,7 @@
 					"maxclass": "ezdac~",
 					"patching_rect": [
 						20,
-						1655,
+						1850,
 						45,
 						45
 					],
@@ -5860,7 +5860,7 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "02 鼓机",
+					"text": "02 Drums · 鼓",
 					"linecount": 1,
 					"patching_rect": [
 						2220,
@@ -5884,13 +5884,13 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "跟随月亮（自动换音色、自动加鼓）",
-					"linecount": 1,
+					"text": "Follow moon (auto sound + auto entries)",
+					"linecount": 2,
 					"patching_rect": [
 						2220,
 						55,
 						245,
-						20
+						40
 					],
 					"id": "obj-284",
 					"numinlets": 1,
@@ -5901,14 +5901,14 @@
 						20,
 						55,
 						245,
-						21
+						41
 					]
 				}
 			},
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "当前格",
+					"text": "Step",
 					"linecount": 1,
 					"patching_rect": [
 						2530,
@@ -5932,7 +5932,7 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "总音量",
+					"text": "Master",
 					"linecount": 1,
 					"patching_rect": [
 						2670,
@@ -5956,13 +5956,13 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "音频",
-					"linecount": 1,
+					"text": "Audio",
+					"linecount": 2,
 					"patching_rect": [
 						2820,
 						55,
 						40,
-						20
+						40
 					],
 					"id": "obj-287",
 					"numinlets": 1,
@@ -5973,20 +5973,20 @@
 						620,
 						55,
 						40,
-						21
+						41
 					]
 				}
 			},
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "点亮格子 = 那一格会响。电子程度 0 = 全是你的采样，1 = 全是合成音色（跟随月亮时自动变化）。\n还没有拖入采样的鼓，会自动只用合成音色。名字旁边的小圆点闪 = 这个鼓正在被触发。",
-					"linecount": 2,
+					"text": "Lit cell = that step plays. Electronic 0 = all your sample, 1 = all synth (changes automatically when following the moon).\nA drum with no sample loaded uses the synth only. The dot next to a name flashes when that drum is hit.",
+					"linecount": 3,
 					"patching_rect": [
 						2220,
 						555,
 						840,
-						40
+						60
 					],
 					"id": "obj-288",
 					"numinlets": 1,
@@ -5997,20 +5997,20 @@
 						20,
 						555,
 						840,
-						38
+						56
 					]
 				}
 			},
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "调音台接口：音量来自 00_mixer（r mix_drums），混响送到 00_mixer（send~ fx_L / fx_R）。没开调音台时音量 = 1。",
-					"linecount": 1,
+					"text": "Mixer interface: level (r mix_drums), pan (r pan_drums), tone (r mix_tone) and reverb send (r rev_drums -> send~ fx_L / fx_R) come from 00_mixer. Without the mixer: level 1, centre, fully bright.",
+					"linecount": 2,
 					"patching_rect": [
 						20,
 						1440,
 						900,
-						20
+						40
 					],
 					"id": "obj-289",
 					"numinlets": 1,
@@ -6022,7 +6022,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						20,
-						1480,
+						1500,
 						72.0,
 						22
 					],
@@ -6040,7 +6040,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						20,
-						1510,
+						1530,
 						49.5,
 						22
 					],
@@ -6063,7 +6063,7 @@
 					"text": "1",
 					"patching_rect": [
 						100,
-						1540,
+						1560,
 						30,
 						22
 					],
@@ -6077,7 +6077,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						20,
-						1540,
+						1560,
 						79.5,
 						22
 					],
@@ -6092,7 +6092,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						150,
-						1480,
+						1500,
 						94.5,
 						22
 					],
@@ -6114,7 +6114,7 @@
 					"text": "$1 50",
 					"patching_rect": [
 						150,
-						1510,
+						1530,
 						51.5,
 						22
 					],
@@ -6128,7 +6128,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						150,
-						1570,
+						1590,
 						49.5,
 						22
 					],
@@ -6147,7 +6147,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						280,
-						1480,
+						1500,
 						94.5,
 						22
 					],
@@ -6169,7 +6169,7 @@
 					"text": "$1 50",
 					"patching_rect": [
 						280,
-						1510,
+						1530,
 						51.5,
 						22
 					],
@@ -6183,7 +6183,7 @@
 					"maxclass": "newobj",
 					"patching_rect": [
 						280,
-						1570,
+						1590,
 						49.5,
 						22
 					],
@@ -6201,17 +6201,17 @@
 				"box": {
 					"maxclass": "newobj",
 					"patching_rect": [
-						20,
-						1615,
-						40,
+						410,
+						1500,
+						94.5,
 						22
 					],
-					"text": "*~",
+					"text": "r pan_drums",
 					"outlettype": [
-						"signal"
+						""
 					],
 					"id": "obj-300",
-					"numinlets": 2,
+					"numinlets": 0,
 					"numoutlets": 1
 				}
 			},
@@ -6219,50 +6219,36 @@
 				"box": {
 					"maxclass": "newobj",
 					"patching_rect": [
-						280,
-						1615,
-						40,
+						410,
+						1530,
+						49.5,
 						22
 					],
-					"text": "*~",
+					"text": "t f f",
 					"outlettype": [
-						"signal"
+						"float",
+						"float"
 					],
 					"id": "obj-301",
-					"numinlets": 2,
-					"numoutlets": 1
+					"numinlets": 1,
+					"numoutlets": 2
 				}
 			},
 			{
 				"box": {
 					"maxclass": "newobj",
 					"patching_rect": [
-						280,
-						1655,
-						87.0,
+						410,
+						1560,
+						200,
 						22
 					],
-					"text": "send~ fx_L",
+					"text": "expr min(1., 2. * (1. - $f1))",
+					"outlettype": [
+						""
+					],
 					"id": "obj-302",
 					"numinlets": 1,
-					"numoutlets": 0
-				}
-			},
-			{
-				"box": {
-					"maxclass": "newobj",
-					"patching_rect": [
-						80,
-						1615,
-						40,
-						22
-					],
-					"text": "*~",
-					"outlettype": [
-						"signal"
-					],
-					"id": "obj-303",
-					"numinlets": 2,
 					"numoutlets": 1
 				}
 			},
@@ -6270,14 +6256,32 @@
 				"box": {
 					"maxclass": "newobj",
 					"patching_rect": [
-						340,
-						1615,
-						40,
+						620,
+						1560,
+						160,
 						22
 					],
-					"text": "*~",
+					"text": "expr min(1., 2. * $f1)",
 					"outlettype": [
-						"signal"
+						""
+					],
+					"id": "obj-303",
+					"numinlets": 1,
+					"numoutlets": 1
+				}
+			},
+			{
+				"box": {
+					"maxclass": "message",
+					"outlettype": [
+						""
+					],
+					"text": "$1 50",
+					"patching_rect": [
+						410,
+						1595,
+						51.5,
+						22
 					],
 					"id": "obj-304",
 					"numinlets": 2,
@@ -6286,15 +6290,339 @@
 			},
 			{
 				"box": {
+					"maxclass": "message",
+					"outlettype": [
+						""
+					],
+					"text": "$1 50",
+					"patching_rect": [
+						620,
+						1595,
+						51.5,
+						22
+					],
+					"id": "obj-305",
+					"numinlets": 2,
+					"numoutlets": 1
+				}
+			},
+			{
+				"box": {
 					"maxclass": "newobj",
 					"patching_rect": [
-						380,
-						1655,
+						410,
+						1630,
+						49.5,
+						22
+					],
+					"text": "line~",
+					"outlettype": [
+						"signal",
+						"bang"
+					],
+					"id": "obj-306",
+					"numinlets": 2,
+					"numoutlets": 2
+				}
+			},
+			{
+				"box": {
+					"maxclass": "newobj",
+					"patching_rect": [
+						620,
+						1630,
+						49.5,
+						22
+					],
+					"text": "line~",
+					"outlettype": [
+						"signal",
+						"bang"
+					],
+					"id": "obj-307",
+					"numinlets": 2,
+					"numoutlets": 2
+				}
+			},
+			{
+				"box": {
+					"maxclass": "newobj",
+					"patching_rect": [
+						810,
+						1500,
+						87.0,
+						22
+					],
+					"text": "r mix_tone",
+					"outlettype": [
+						""
+					],
+					"id": "obj-308",
+					"numinlets": 0,
+					"numoutlets": 1
+				}
+			},
+			{
+				"box": {
+					"maxclass": "message",
+					"outlettype": [
+						""
+					],
+					"text": "$1 100",
+					"patching_rect": [
+						810,
+						1530,
+						59.0,
+						22
+					],
+					"id": "obj-309",
+					"numinlets": 2,
+					"numoutlets": 1
+				}
+			},
+			{
+				"box": {
+					"maxclass": "message",
+					"outlettype": [
+						""
+					],
+					"text": "20000",
+					"patching_rect": [
+						900,
+						1560,
+						51.5,
+						22
+					],
+					"id": "obj-310",
+					"numinlets": 2,
+					"numoutlets": 1
+				}
+			},
+			{
+				"box": {
+					"maxclass": "newobj",
+					"patching_rect": [
+						810,
+						1590,
+						49.5,
+						22
+					],
+					"text": "line~",
+					"outlettype": [
+						"signal",
+						"bang"
+					],
+					"id": "obj-311",
+					"numinlets": 2,
+					"numoutlets": 2
+				}
+			},
+			{
+				"box": {
+					"maxclass": "newobj",
+					"patching_rect": [
+						20,
+						1675,
+						72.0,
+						22
+					],
+					"text": "onepole~",
+					"outlettype": [
+						"signal"
+					],
+					"id": "obj-312",
+					"numinlets": 2,
+					"numoutlets": 1
+				}
+			},
+			{
+				"box": {
+					"maxclass": "newobj",
+					"patching_rect": [
+						20,
+						1710,
+						72.0,
+						22
+					],
+					"text": "onepole~",
+					"outlettype": [
+						"signal"
+					],
+					"id": "obj-313",
+					"numinlets": 2,
+					"numoutlets": 1
+				}
+			},
+			{
+				"box": {
+					"maxclass": "newobj",
+					"patching_rect": [
+						20,
+						1745,
+						40,
+						22
+					],
+					"text": "*~",
+					"outlettype": [
+						"signal"
+					],
+					"id": "obj-314",
+					"numinlets": 2,
+					"numoutlets": 1
+				}
+			},
+			{
+				"box": {
+					"maxclass": "newobj",
+					"patching_rect": [
+						20,
+						1780,
+						40,
+						22
+					],
+					"text": "*~",
+					"outlettype": [
+						"signal"
+					],
+					"id": "obj-315",
+					"numinlets": 2,
+					"numoutlets": 1
+				}
+			},
+			{
+				"box": {
+					"maxclass": "newobj",
+					"patching_rect": [
+						280,
+						1815,
+						40,
+						22
+					],
+					"text": "*~",
+					"outlettype": [
+						"signal"
+					],
+					"id": "obj-316",
+					"numinlets": 2,
+					"numoutlets": 1
+				}
+			},
+			{
+				"box": {
+					"maxclass": "newobj",
+					"patching_rect": [
+						280,
+						1850,
+						87.0,
+						22
+					],
+					"text": "send~ fx_L",
+					"id": "obj-317",
+					"numinlets": 1,
+					"numoutlets": 0
+				}
+			},
+			{
+				"box": {
+					"maxclass": "newobj",
+					"patching_rect": [
+						110,
+						1675,
+						72.0,
+						22
+					],
+					"text": "onepole~",
+					"outlettype": [
+						"signal"
+					],
+					"id": "obj-318",
+					"numinlets": 2,
+					"numoutlets": 1
+				}
+			},
+			{
+				"box": {
+					"maxclass": "newobj",
+					"patching_rect": [
+						110,
+						1710,
+						72.0,
+						22
+					],
+					"text": "onepole~",
+					"outlettype": [
+						"signal"
+					],
+					"id": "obj-319",
+					"numinlets": 2,
+					"numoutlets": 1
+				}
+			},
+			{
+				"box": {
+					"maxclass": "newobj",
+					"patching_rect": [
+						110,
+						1745,
+						40,
+						22
+					],
+					"text": "*~",
+					"outlettype": [
+						"signal"
+					],
+					"id": "obj-320",
+					"numinlets": 2,
+					"numoutlets": 1
+				}
+			},
+			{
+				"box": {
+					"maxclass": "newobj",
+					"patching_rect": [
+						110,
+						1780,
+						40,
+						22
+					],
+					"text": "*~",
+					"outlettype": [
+						"signal"
+					],
+					"id": "obj-321",
+					"numinlets": 2,
+					"numoutlets": 1
+				}
+			},
+			{
+				"box": {
+					"maxclass": "newobj",
+					"patching_rect": [
+						370,
+						1815,
+						40,
+						22
+					],
+					"text": "*~",
+					"outlettype": [
+						"signal"
+					],
+					"id": "obj-322",
+					"numinlets": 2,
+					"numoutlets": 1
+				}
+			},
+			{
+				"box": {
+					"maxclass": "newobj",
+					"patching_rect": [
+						390,
+						1850,
 						87.0,
 						22
 					],
 					"text": "send~ fx_R",
-					"id": "obj-305",
+					"id": "obj-323",
 					"numinlets": 1,
 					"numoutlets": 0
 				}
@@ -10108,59 +10436,11 @@
 			{
 				"patchline": {
 					"destination": [
-						"obj-300",
-						0
-					],
-					"source": [
-						"obj-280",
-						0
-					]
-				}
-			},
-			{
-				"patchline": {
-					"destination": [
-						"obj-300",
-						1
-					],
-					"source": [
-						"obj-296",
-						0
-					]
-				}
-			},
-			{
-				"patchline": {
-					"destination": [
-						"obj-281",
-						0
-					],
-					"source": [
-						"obj-300",
-						0
-					]
-				}
-			},
-			{
-				"patchline": {
-					"destination": [
 						"obj-301",
 						0
 					],
 					"source": [
 						"obj-300",
-						0
-					]
-				}
-			},
-			{
-				"patchline": {
-					"destination": [
-						"obj-301",
-						1
-					],
-					"source": [
-						"obj-299",
 						0
 					]
 				}
@@ -10184,32 +10464,8 @@
 						0
 					],
 					"source": [
-						"obj-280",
-						0
-					]
-				}
-			},
-			{
-				"patchline": {
-					"destination": [
-						"obj-303",
+						"obj-301",
 						1
-					],
-					"source": [
-						"obj-296",
-						0
-					]
-				}
-			},
-			{
-				"patchline": {
-					"destination": [
-						"obj-281",
-						1
-					],
-					"source": [
-						"obj-303",
-						0
 					]
 				}
 			},
@@ -10220,19 +10476,7 @@
 						0
 					],
 					"source": [
-						"obj-303",
-						0
-					]
-				}
-			},
-			{
-				"patchline": {
-					"destination": [
-						"obj-304",
-						1
-					],
-					"source": [
-						"obj-299",
+						"obj-302",
 						0
 					]
 				}
@@ -10244,7 +10488,391 @@
 						0
 					],
 					"source": [
+						"obj-303",
+						0
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-306",
+						0
+					],
+					"source": [
 						"obj-304",
+						0
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-306",
+						0
+					],
+					"source": [
+						"obj-292",
+						0
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-307",
+						0
+					],
+					"source": [
+						"obj-305",
+						0
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-307",
+						0
+					],
+					"source": [
+						"obj-292",
+						0
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-309",
+						0
+					],
+					"source": [
+						"obj-308",
+						0
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-310",
+						0
+					],
+					"source": [
+						"obj-291",
+						1
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-311",
+						0
+					],
+					"source": [
+						"obj-309",
+						0
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-311",
+						0
+					],
+					"source": [
+						"obj-310",
+						0
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-312",
+						0
+					],
+					"source": [
+						"obj-280",
+						0
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-313",
+						0
+					],
+					"source": [
+						"obj-312",
+						0
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-312",
+						1
+					],
+					"source": [
+						"obj-311",
+						0
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-313",
+						1
+					],
+					"source": [
+						"obj-311",
+						0
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-314",
+						0
+					],
+					"source": [
+						"obj-313",
+						0
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-314",
+						1
+					],
+					"source": [
+						"obj-296",
+						0
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-315",
+						0
+					],
+					"source": [
+						"obj-314",
+						0
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-315",
+						1
+					],
+					"source": [
+						"obj-306",
+						0
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-281",
+						0
+					],
+					"source": [
+						"obj-315",
+						0
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-316",
+						0
+					],
+					"source": [
+						"obj-315",
+						0
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-316",
+						1
+					],
+					"source": [
+						"obj-299",
+						0
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-317",
+						0
+					],
+					"source": [
+						"obj-316",
+						0
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-318",
+						0
+					],
+					"source": [
+						"obj-280",
+						0
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-319",
+						0
+					],
+					"source": [
+						"obj-318",
+						0
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-318",
+						1
+					],
+					"source": [
+						"obj-311",
+						0
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-319",
+						1
+					],
+					"source": [
+						"obj-311",
+						0
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-320",
+						0
+					],
+					"source": [
+						"obj-319",
+						0
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-320",
+						1
+					],
+					"source": [
+						"obj-296",
+						0
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-321",
+						0
+					],
+					"source": [
+						"obj-320",
+						0
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-321",
+						1
+					],
+					"source": [
+						"obj-307",
+						0
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-281",
+						1
+					],
+					"source": [
+						"obj-321",
+						0
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-322",
+						0
+					],
+					"source": [
+						"obj-321",
+						0
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-322",
+						1
+					],
+					"source": [
+						"obj-299",
+						0
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-323",
+						0
+					],
+					"source": [
+						"obj-322",
 						0
 					]
 				}

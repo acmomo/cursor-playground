@@ -25,13 +25,13 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "01 时钟 · 月亮（编辑视图）。按 Cmd/Ctrl+Alt+E 切换回演奏界面。\n发出：moon 月亮高度 0-1 / moon_stage 场景 0-3 / bpm / clock_step 0-15（十六分音符）/ clock_beat 每拍 / clock_bar 每小节 / clock_run 播放状态",
-					"linecount": 3,
+					"text": "01 Clock · 月亮 (edit view). Press Cmd/Ctrl+Alt+E to go back to the performance view.\nSends: moon (height 0-1) / moon_stage (scene 0-3) / bpm / clock_step 0-15 (16th notes) / clock_beat / clock_bar / clock_run",
+					"linecount": 2,
 					"patching_rect": [
 						20,
 						10,
 						900,
-						60
+						40
 					],
 					"id": "obj-1",
 					"numinlets": 1,
@@ -222,7 +222,7 @@
 					"outlettype": [
 						""
 					],
-					"text": "地下",
+					"text": "Underground 地下",
 					"patching_rect": [
 						250,
 						560,
@@ -248,7 +248,7 @@
 					"outlettype": [
 						""
 					],
-					"text": "set 地下",
+					"text": "set Underground 地下",
 					"patching_rect": [
 						250,
 						520,
@@ -266,7 +266,7 @@
 					"outlettype": [
 						""
 					],
-					"text": "set 河流",
+					"text": "set River 河流",
 					"patching_rect": [
 						335,
 						520,
@@ -284,7 +284,7 @@
 					"outlettype": [
 						""
 					],
-					"text": "set 松间",
+					"text": "set Pines 松间",
 					"patching_rect": [
 						420,
 						520,
@@ -302,7 +302,7 @@
 					"outlettype": [
 						""
 					],
-					"text": "set 天上 · 高潮",
+					"text": "set Sky 天上 · climax",
 					"patching_rect": [
 						505,
 						520,
@@ -1579,16 +1579,34 @@
 			},
 			{
 				"box": {
+					"maxclass": "newobj",
+					"patching_rect": [
+						800,
+						680,
+						57.0,
+						22
+					],
+					"text": "r calm",
+					"outlettype": [
+						""
+					],
+					"id": "obj-80",
+					"numinlets": 0,
+					"numoutlets": 1
+				}
+			},
+			{
+				"box": {
 					"maxclass": "comment",
-					"text": "01 时钟 · 月亮",
+					"text": "01 Clock · 月亮",
 					"linecount": 1,
 					"patching_rect": [
-						1520,
+						2220,
 						12,
 						300,
 						20
 					],
-					"id": "obj-80",
+					"id": "obj-81",
 					"numinlets": 1,
 					"numoutlets": 0,
 					"fontsize": 22,
@@ -1604,15 +1622,15 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "播放",
+					"text": "Play",
 					"linecount": 1,
 					"patching_rect": [
-						1520,
+						2220,
 						60,
 						60,
 						20
 					],
-					"id": "obj-81",
+					"id": "obj-82",
 					"numinlets": 1,
 					"numoutlets": 0,
 					"fontsize": 14,
@@ -1631,12 +1649,12 @@
 					"text": "BPM",
 					"linecount": 1,
 					"patching_rect": [
-						1600,
+						2300,
 						60,
 						60,
 						20
 					],
-					"id": "obj-82",
+					"id": "obj-83",
 					"numinlets": 1,
 					"numoutlets": 0,
 					"fontsize": 14,
@@ -1652,15 +1670,15 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "十六分音符 / 每拍",
+					"text": "16th step / beat",
 					"linecount": 1,
 					"patching_rect": [
-						1730,
+						2430,
 						60,
 						160,
 						20
 					],
-					"id": "obj-83",
+					"id": "obj-84",
 					"numinlets": 1,
 					"numoutlets": 0,
 					"fontsize": 14,
@@ -1676,15 +1694,15 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "月亮高度",
+					"text": "Moon",
 					"linecount": 1,
 					"patching_rect": [
-						1520,
+						2220,
 						155,
 						85,
 						20
 					],
-					"id": "obj-84",
+					"id": "obj-85",
 					"numinlets": 1,
 					"numoutlets": 0,
 					"fontsize": 14,
@@ -1700,37 +1718,13 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "现在的场景",
+					"text": "Current scene",
 					"linecount": 1,
 					"patching_rect": [
-						1610,
+						2310,
 						155,
 						150,
 						20
-					],
-					"id": "obj-85",
-					"numinlets": 1,
-					"numoutlets": 0,
-					"fontsize": 14,
-					"presentation": 1,
-					"presentation_rect": [
-						110,
-						155,
-						150,
-						21
-					]
-				}
-			},
-			{
-				"box": {
-					"maxclass": "comment",
-					"text": "0.70 天上 · 高潮\n0.45 松间\n0.20 河流\n0.00 地下",
-					"linecount": 4,
-					"patching_rect": [
-						1610,
-						235,
-						200,
-						80
 					],
 					"id": "obj-86",
 					"numinlets": 1,
@@ -1739,6 +1733,30 @@
 					"presentation": 1,
 					"presentation_rect": [
 						110,
+						155,
+						150,
+						21
+					]
+				}
+			},
+			{
+				"box": {
+					"maxclass": "comment",
+					"text": "0.70 Sky 天上\n0.45 Pines 松间\n0.20 River 河流\n0.00 Underground 地下",
+					"linecount": 4,
+					"patching_rect": [
+						2310,
+						235,
+						200,
+						80
+					],
+					"id": "obj-87",
+					"numinlets": 1,
+					"numoutlets": 0,
+					"fontsize": 14,
+					"presentation": 1,
+					"presentation_rect": [
+						110,
 						235,
 						200,
 						80
@@ -1748,15 +1766,15 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "吉他推动月亮：弹得越多升得越高，不弹就慢慢下沉",
+					"text": "Guitar pushes the moon: more playing = higher",
 					"linecount": 1,
 					"patching_rect": [
-						1610,
+						2310,
 						340,
 						400,
 						20
 					],
-					"id": "obj-87",
+					"id": "obj-88",
 					"numinlets": 1,
 					"numoutlets": 0,
 					"fontsize": 14,
@@ -1772,15 +1790,15 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "开",
+					"text": "On",
 					"linecount": 1,
 					"patching_rect": [
-						1645,
+						2345,
 						378,
 						40,
 						20
 					],
-					"id": "obj-88",
+					"id": "obj-89",
 					"numinlets": 1,
 					"numoutlets": 0,
 					"fontsize": 14,
@@ -1796,15 +1814,15 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "模拟拨弦",
+					"text": "Fake pluck",
 					"linecount": 1,
 					"patching_rect": [
-						1700,
+						2400,
 						378,
 						80,
 						20
 					],
-					"id": "obj-89",
+					"id": "obj-90",
 					"numinlets": 1,
 					"numoutlets": 0,
 					"fontsize": 14,
@@ -1820,15 +1838,15 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "每次拨弦上升",
+					"text": "Rise per pluck",
 					"linecount": 1,
 					"patching_rect": [
-						1610,
+						2310,
 						415,
 						120,
 						20
 					],
-					"id": "obj-90",
+					"id": "obj-91",
 					"numinlets": 1,
 					"numoutlets": 0,
 					"fontsize": 12,
@@ -1844,15 +1862,15 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "每秒下沉",
+					"text": "Sink per sec",
 					"linecount": 1,
 					"patching_rect": [
-						1740,
+						2440,
 						415,
 						120,
 						20
 					],
-					"id": "obj-91",
+					"id": "obj-92",
 					"numinlets": 1,
 					"numoutlets": 0,
 					"fontsize": 12,
@@ -1868,15 +1886,15 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "自动升起 / 落下（会关掉吉他推动）",
+					"text": "Auto rise / fall (turns guitar push off)",
 					"linecount": 1,
 					"patching_rect": [
-						1610,
+						2310,
 						475,
 						400,
 						20
 					],
-					"id": "obj-92",
+					"id": "obj-93",
 					"numinlets": 1,
 					"numoutlets": 0,
 					"fontsize": 14,
@@ -1892,15 +1910,15 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "用时（秒）",
+					"text": "Time (s)",
 					"linecount": 1,
 					"patching_rect": [
-						1610,
+						2310,
 						500,
 						90,
 						20
 					],
-					"id": "obj-93",
+					"id": "obj-94",
 					"numinlets": 1,
 					"numoutlets": 0,
 					"fontsize": 12,
@@ -1916,15 +1934,15 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "升起",
+					"text": "Rise",
 					"linecount": 1,
 					"patching_rect": [
-						1700,
+						2400,
 						500,
 						50,
 						20
 					],
-					"id": "obj-94",
+					"id": "obj-95",
 					"numinlets": 1,
 					"numoutlets": 0,
 					"fontsize": 12,
@@ -1940,15 +1958,15 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "落下",
+					"text": "Fall",
 					"linecount": 1,
 					"patching_rect": [
-						1760,
+						2460,
 						500,
 						50,
 						20
 					],
-					"id": "obj-95",
+					"id": "obj-96",
 					"numinlets": 1,
 					"numoutlets": 0,
 					"fontsize": 12,
@@ -1964,15 +1982,15 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "停止",
+					"text": "Stop",
 					"linecount": 1,
 					"patching_rect": [
-						1820,
+						2520,
 						500,
 						50,
 						20
 					],
-					"id": "obj-96",
+					"id": "obj-97",
 					"numinlets": 1,
 					"numoutlets": 0,
 					"fontsize": 12,
@@ -1988,15 +2006,39 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "速度范围：月亮在地下 → 天上",
+					"text": "Calm from 05 Hum also starts Fall",
 					"linecount": 1,
 					"patching_rect": [
-						1920,
+						2310,
+						555,
+						300,
+						20
+					],
+					"id": "obj-98",
+					"numinlets": 1,
+					"numoutlets": 0,
+					"fontsize": 12,
+					"presentation": 1,
+					"presentation_rect": [
+						110,
+						555,
+						300,
+						18
+					]
+				}
+			},
+			{
+				"box": {
+					"maxclass": "comment",
+					"text": "Tempo: Underground → Sky",
+					"linecount": 1,
+					"patching_rect": [
+						2620,
 						155,
 						220,
 						20
 					],
-					"id": "obj-97",
+					"id": "obj-99",
 					"numinlets": 1,
 					"numoutlets": 0,
 					"fontsize": 14,
@@ -2012,15 +2054,15 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "最慢",
+					"text": "Min",
 					"linecount": 1,
 					"patching_rect": [
-						1920,
+						2620,
 						185,
 						50,
 						20
 					],
-					"id": "obj-98",
+					"id": "obj-100",
 					"numinlets": 1,
 					"numoutlets": 0,
 					"fontsize": 12,
@@ -2036,15 +2078,15 @@
 			{
 				"box": {
 					"maxclass": "comment",
-					"text": "最快",
+					"text": "Max",
 					"linecount": 1,
 					"patching_rect": [
-						2010,
+						2710,
 						185,
 						50,
 						20
 					],
-					"id": "obj-99",
+					"id": "obj-101",
 					"numinlets": 1,
 					"numoutlets": 0,
 					"fontsize": 12,
@@ -3183,6 +3225,18 @@
 					],
 					"source": [
 						"obj-79",
+						0
+					]
+				}
+			},
+			{
+				"patchline": {
+					"destination": [
+						"obj-72",
+						0
+					],
+					"source": [
+						"obj-80",
 						0
 					]
 				}
